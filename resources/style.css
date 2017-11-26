@@ -102,3 +102,16 @@ a {
   background-color: black;
   margin: 20px;
 }
+
+footer {
+  height: 250px;
+  display: block;
+  position: relative;
+  top: 70px;
+}
+
+.copyright {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 20px;
+}
