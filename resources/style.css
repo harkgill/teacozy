@@ -64,6 +64,10 @@ a {
   justify-content: center;
 }
 
+.tea-option {
+  padding: 10px;
+}
+
 .tea-option img {
   height: 200px;
   width: 300px;
@@ -71,4 +75,30 @@ a {
 
 .tea-option p {
   margin-top: 10px;
+}
+
+.locations {
+  display: flex;
+  background-image: url('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg');
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.location h3 {
+  margin-bottom: 15px;
+}
+
+.store-fronts {
+  display: flex;
+  flex-direction: row;
+}
+
+.direction {
+  width: 300px;
+  opacity: 1;
+  background-color: black;
+  margin: 20px;
 }
